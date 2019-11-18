@@ -61,6 +61,7 @@ p {
 #headshot img {
 	width: 100%;
 	height: auto;
+	color:#181818;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 }
@@ -355,6 +356,11 @@ section:last-child {
 }
 
  /* unvisited link */
+
+.keySkills a {
+	text-decoration:none;
+}
+
 a:link {
   color: black;
 }
@@ -373,3 +379,16 @@ a:hover {
 a:active {
   color: blue;
 } 
+
+.transPrint {
+	height:30px;
+	width:auto;
+}
+
+#translation {
+	float:left;
+}
+
+#printable {
+	float:right;
+}
