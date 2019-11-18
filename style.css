@@ -31,7 +31,7 @@ p {
 
 .mainDetails {
 	padding: 25px 35px;
-	border-bottom: 2px solid #cf8a05;
+	border-bottom: 2px solid #15bf84;
 	background: #ededed;
 }
 
@@ -95,7 +95,7 @@ p {
 }
 
 #contactDetails ul li a:hover { 
-	color: #cf8a05;
+	color: #15bf84;
 }
 
 
@@ -126,7 +126,7 @@ section:last-child {
 	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 1.5em;
-	color: #cf8a05;
+	color: #28a87c;
 }
 
 .sectionContent h2 {
@@ -353,3 +353,23 @@ section:last-child {
 	-moz-animation-delay: 0, 2.5s;
 	animation-delay: 0, 2.5s;
 }
+
+ /* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: #15bf84;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
